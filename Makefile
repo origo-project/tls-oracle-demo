@@ -9,8 +9,8 @@ SERVER_PAYPAL = paypal
 PROXY_URL ?= localhost:8082
 PROXY_SERVER ?= localhost:8080
 
-PROXY_URL = 129.187.45.9:8082
-PROXY_SERVER = 129.187.45.9:8080
+# PROXY_URL = 129.187.45.9:8082
+# PROXY_SERVER = 129.187.45.9:8080
 
 ROOT_DIR := $(shell pwd)
 circuit_directory = local_storage/circuits
